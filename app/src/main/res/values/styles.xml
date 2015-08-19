@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+            <item name="android:windowNoTitle">true</item>
+            <item name="colorPrimary">@color/md_red_800</item>
+            <item name="colorPrimaryDark">@color/md_red_900</item>
+            <item name="colorAccent">@color/md_red_500</item>
+            <item name="colorControlHighlight">@color/md_red_500_25</item>
+            <item name="android:windowBackground">@color/md_white_1000</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <color name="md_red_800">#C62828</color>
+    <color name="md_red_900">#B71C1C</color>
+    <color name="md_red_500">#F44336</color>
+    <color name="md_red_500_25">#F44336</color>
+    <color name="md_white_1000">#FFF</color>
+    <color name="bg_webview">#F5F5F5</color>
+    <color name="md_preto">#303030</color>
+</resources>
+

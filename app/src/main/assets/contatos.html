@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="demolaypb">
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="scripts/angular.js"></script>  
+<script type="text/javascript" src="scripts/contatos.js"></script> 
+<link rel="stylesheet" type="text/css" href="estilos/global.css" />
+<link rel="stylesheet" type="text/css" href="estilos/contatos-corpos.css" />
+</head>
+<body ng-controller="contatos">
+<div  id="outer-wrap-menu"> 
+<div id="inner-wrap-menu"> 
+    <!-- carrega lista depedendo de qual link clicar !-->
+    <a class="btn" href="#ancora" ng-click="tabela = gce">GCE</a>
+    <a class="btn" href="#ancora" ng-click="tabela = gabinete">Gabinete</a>
+    <a class="btn" href="#ancora" ng-click="tabela = oficiais">Oficiais</a>    
+</div>
+</div>
+
+<div id="outer-wrap">
+<div id="inner-wrap"> 
+    <a name="ancora" class="ancora">&nbsp</a>
+    <div ng-repeat="membro in tabela" ng-click="click = !click" class='floatbox'>
+
+        <!-- Parte da 'frente' dos cartoes !-->
+        <div ng-show="!click" class="caixa naoSelecionada">
+        <h4>{{membro.cargo}}</h4>                   
+            <hr />
+            <div class="imagem"><img src='{{"img/" + membro.img}}' width="100%"></div>
+            <hr />
+            <p> {{membro.nome}} <br /></p>
+        </div>
+
+        <!-- Parte de 'tras' dos cartoes !-->
+        <div ng-show="click" class="caixa selecionada">
+
+            <h4>{{membro.cargo}}</h4><hr />
+            <div class="informacoes">
+            <p> Telefone 1: {{membro.telefone1}} </p>
+            <p> Telefone 2: {{membro.telefone2}} </p>
+           
+            
+            <p ng-repeat="paragrafo in membro.informacoes"> {{paragrafo}} </p>
+            </div>
+        <p><a ng-click="click = false" class="duvida email" href="mailto:'{{membro.email}}'">Enviar e-Mail</a></p>
+
+        </div>
+        
+    </div> 
+</div>
+</div>
+</body>
+</html>

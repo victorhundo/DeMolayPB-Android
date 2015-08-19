@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="demolaypb">
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="scripts/angular.js"></script>  
+<script type="text/javascript" src="scripts/taxas.js"></script> 
+<link rel="stylesheet" type="text/css" href="estilos/global.css" />
+<link rel="stylesheet" type="text/css" href="estilos/taxas.css" />
+</head>
+<body ng-controller="taxas">
+
+    <h3> Depósito na Conta Corrente do GCE-PB </h3>
+    <h4> Banco do Brasil S/A </h4>
+    <h4> AG: 1636-5 </h4>
+    <h4> C/C 45.678-0 </h4>
+    <h4> Favorecido: Grande Conselho Estadual da Ordem DeMolay da Paraíba </h4>
+    <div class="taxas" ng-repeat="taxa in taxas">
+        <h4> {{taxa.grau}} </h4>
+	<table cellpadding="0" cellspacing="0" >
+        <tr >
+            <td ng-style="{'background':'#C62828', 'font-weight': 'bold', 'color': '#fff'}">GCE-PB</td>
+            <td ng-style="{'background':'#C62828', 'font-weight': 'bold', 'color': '#fff'}">SCODRFB</td>
+            <td ng-style="{'background':'#C62828', 'font-weight': 'bold', 'color': '#fff'}">DM-Shop</td>
+            <td ng-style="{'background':'#C62828', 'font-weight': 'bold', 'color': '#fff'}">Gabin. MCE-PB</td>
+            <td ng-style="{'background':'#C62828', 'font-weight': 'bold', 'color': '#fff'}">Portal DM-PB</td>
+            <td ng-style="{'background':'#C62828', 'font-weight': 'bold', 'color': '#fff'}">Total Geral</td>
+        </tr>
+        <tr >
+            <td >{{taxa.gce}}</td>
+            <td >{{taxa.scodrfb}}</td>
+            <td >{{taxa.dmShop}}</td>
+            <td >{{taxa.mcePb}}</td>
+            <td >{{taxa.demolaypb}}</td>
+            <td >{{taxa.total}}</td>
+        </tr>
+    </table>
+    </div>
+
+</body>
+</html>

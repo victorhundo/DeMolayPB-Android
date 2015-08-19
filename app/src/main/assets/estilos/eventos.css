@@ -1,0 +1,22 @@
+.content{
+    position: absolute;
+    margin-left: 10%; 
+    width: 80%;
+    height: 100%;
+}
+
+
+
+.caixa {
+    width: 100%;
+    color: #C62828;
+    background:#fff;
+    margin: 1em 0em 1em -0.5em;
+}
+
+
+.caixa p{
+    margin-top: 0.5em;
+    text-align: justify;
+}
+

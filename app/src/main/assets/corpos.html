@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="demolaypb">
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="scripts/angular.js"></script> 
+<script type="text/javascript" src="scripts/corpos.js"></script> 
+<link rel="stylesheet" type="text/css" href="estilos/global.css" />
+<link rel="stylesheet" type="text/css" href="estilos/contatos-corpos.css" />
+</head>
+<body ng-controller="corpos">
+<div  id="outer-wrap-menu">
+<div id="inner-wrap-menu"> 
+  <!-- carrega lista depedendo de qual link clicar !-->
+  <a href="#ancora" class="btn" ng-click="tabela = capitulos">Capítulos</a>
+  <a href="#ancora" class="btn" ng-click="tabela = priorados">Priorados</a>
+  <a href="#ancora" class="btn" ng-click="tabela = castelos">Castelos</a>
+  <a href="#ancora" class="btn" ng-click="tabela = cortes">Cortes</a>
+  <a href="#ancora" class="btn" ng-click="tabela = alumni">Alumni</a>
+</div>
+</div>
+    
+<div id="outer-wrap">
+<div id="inner-wrap">
+  <a name="ancora" class="ancora">&nbsp</a>
+  <div ng-repeat="corpo in tabela" ng-click="click = !click" class='floatbox'>
+
+    <!-- Parte da 'frente' dos cartoes !-->
+    <div ng-show="!click" class="caixa naoSelecionada">
+    <h5> {{corpo.nome}} </h5>
+    <hr />
+    <div class="imagem"><img src='{{"./img/" + corpo.img}}' width="100%"></div>
+    <hr />
+    <h4> {{corpo.cidade}}</h4> <br/>
+    <h5> Fundação: {{corpo.fundacao}} </h5>
+    <h5>Instalação: {{corpo.instalacao}} </h5>
+    </div>
+
+    <!-- Parte de 'tras' dos cartoes !-->
+    <div ng-show="click" class="caixa selecionada">
+      <h5> {{corpo.nome}} </h5><hr />
+      <div ng-repeat="diretoria in corpo.diretoria"> 
+        <br />
+        <h4>{{diretoria.cargo}} </h4>
+        <h5> {{diretoria.nome}} <h5/>
+        <h5>{{diretoria.telefone1}} <h5/>
+        <h5>{{diretoria.email}} </h5>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+</body>
+</html>

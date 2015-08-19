@@ -1,0 +1,61 @@
+* {margin: 0; padding: 0; -webkit-user-select: none;  font-family: 'Arial', Helvetica, sans-serif; }
+
+body {
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+	background-color: #F5F5F5 ;
+	font-family: 'Arial', 'dRoboto', 'Helvetica', sans-serif;
+}
+
+
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.caixa {
+    box-shadow:  0px 2px 2px 0px #ABABAB;
+    border-radius: 2px;
+    text-align: center;
+    padding: 0.5em;
+    float:left; /*force into block level for dimensions*/
+}
+
+.btn {
+
+    border-right-style: solid;
+    border-right-width: 1px;
+    height: 20px;;
+    display: block;
+    float: left;
+    font-family: Arial;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: bold;
+    background: #C62828;
+    padding: 10px 20px 10px 20px;
+
+    color: #F5F5F5;
+  
+}
+
+.btn:hover {
+    background: #F44336;
+    text-decoration: none;
+}
+
+.duvida{
+    display: block;
+    background: #C62828;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 3px #330000;
+    padding: 0.6em;
+    text-align: center;
+    margin-left: -0.6em;
+    margin-bottom: 0.6em;
+    text-decoration: none;
+    color: #fff;
+}

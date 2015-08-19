@@ -1,0 +1,83 @@
+Refatoração:
+
+Android:
+	AndroidManifest.xml					OK	
+	fragment_contatos.java				OK
+	fragment_contatos.java				OK
+	fragment_corpos.java				OK
+	fragment_eventos.java				OK
+	fragment_home.java					OK
+	fragment_taxas.java					OK
+	MainActivity.java					OK
+	MyWebViewClient.java				OK
+	NavigationDrawerFragment.java		OK
+	ApplicationTest.java				OK
+	listselector.xml					OK
+	progressbar.xml						OK
+	progressdialog.xml					OK
+	activity_main.xml					OK
+	fragment_main.xml					OK
+	fragment_navigation_drawer.xml		OK
+	menu_layout.xml						OK
+	progressbar.xml						OK
+	global.xml							OK
+	main.xml							OK
+	colors.xml							OK
+	dimens.xml							OK
+	dimens.xml							OK
+	strings.xml							OK
+	style.xml							OK
+
+Assents:
+	contatos.css						OK
+	corpos.css							OK
+	eventos.css							OK
+	global.css							OK
+	home.css							OK
+	taxas.css							OK
+	angular.js							OK
+	contatos.js							OK
+	corpos.js							OK
+	eventos.js							OK
+	home.js								OK
+	taxas.js							OK
+	contatos.html 						OK
+	corpos.html 						OK
+	eventos.html 						OK
+	home.html 							OK
+	taxas.html 							OK
+
+
+VH, daquela descrição no lugar para baixar o APP, retira que retirou o séc de projetos por favor
+
+[14/8/2015, 10:23] +55 83 9831-0535: Em eventos:
+
+Pode pegar uma foto da cidade e colocar CEOD PB - Picuí 2016
+[14/8/2015, 10:24] +55 83 9831-0535: Acerca do Encontro do Malhete pode colocar: Guarabira
+
+Vê os brasões
+M maiusculo na página principal
+ele vai me mandar os membros das comissões
+
+
+
+
+------
+
+Atualização 1.1:
+
+Corrigido problema do aplicativo quando não tem acesso a internet.
+Removido "Secretário de Projetos" dos contatos da Equipe do Gabinete Estadual
+Removido brasão do capítulo União do Vale (estava errado)
+Removido titulo e subtitulo em "Home"
+Adicionado funcionalidade de "mais informações" nos cartões do app
+Adicionando os capítulos de cada região na área dos oficias executivos
+Adicionado "Taxas" no menu
+Adicionado em "Home" um botão de dúvidas que redirecionada para o app de email padrão 
+Atualizado nome do app para "DeMolay PB"
+Atualizado layout dos subbotões em "contatos" e "corpos"
+Adicionado as informações de fundação, instalação e contatos da diretoria em "corpos"
+
+------
+
+Atualização 1.2:

@@ -1,0 +1,78 @@
+
+.imagem{
+	padding: 0.2em; 
+}
+
+#outer-wrap-menu {
+    background-color: #C62828;
+    height: 40px;
+    overflow: auto; 
+}
+#inner-wrap-menu {
+
+    float:left;
+    margin-right:-999em;
+}
+
+#outer-wrap {
+    padding: 0.5em;
+    margin: auto;
+    overflow: auto;
+    margin-top: 5%;
+    
+    
+}
+#inner-wrap {
+    float:left;
+    margin-right:-999em;
+    
+}
+
+.floatbox{
+    margin-right: 0.5em;
+    float:left; /*force into block level for dimensions*/
+
+}
+
+
+.caixa{
+    font-weight: bold;
+    width:15em;
+    height:20em;
+}
+
+.naoSelecionada {
+    background: #fff;
+    color: #C62828;
+
+}
+
+.selecionada {
+    background-color: #B71C1C;
+    background: #ffffff url("../img/DemolayLogo.png") no-repeat right;
+    background-size: auto 130%;
+
+}
+
+.selecionada p{
+    margin: 0.5em;
+}
+
+.selecionada .informacoes p{
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.ancora {
+    float:left; /*force into block level for dimensions*/
+}
+
+.email{
+}
+
+.informacoes{   
+    height: 250px;
+    overflow: auto;
+
+}

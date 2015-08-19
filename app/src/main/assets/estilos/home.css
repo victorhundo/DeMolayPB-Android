@@ -1,0 +1,96 @@
+.barra{
+    color: #C62828;
+    margin-top: 0.5em;
+    width: 100%;    
+    text-align: center;
+}
+
+.logo{
+    /*height: 50px;
+    background-image: url("../logo.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loading{
+    width: 300px;
+    height: 200px;
+    background: url("../img/loading.gif") no-repeat center center;
+}
+
+.image{
+    
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+}
+
+.caixa {
+    width: 300px;
+    height: 200px;
+    color: #000;
+    background: #ffffff url("../img/card.png") no-repeat center;
+    margin: 0em 0.8em 0em -0.5em;
+}
+
+
+.caixa p{
+    text-align: justify;
+    
+}
+.caixa a{
+    size: 300px 200px;
+    text-decoration: none;
+    color: #000;
+
+}
+.caixa h6{
+    font-weight: 700;
+
+}
+
+.offline{
+
+}
+
+#outer-wrap {
+
+    padding: 0.3em;
+    margin-top: 0.3em;
+    overflow: auto;
+    
+    
+}
+#inner-wrap {
+    float:left;
+    margin-right:-999em;
+    
+}
+
+.content{
+    position: absolute;
+    margin-left: 5%; 
+    width: 90%;
+    
+}
+
+.painel{
+    width: 100%;
+    box-shadow:  0px 2px 2px 0px #ABABAB;
+    border-radius: 2px;
+    padding: 0.5em;
+    color: #C62828;
+    background: #ffffff url("../img/DemolayLogo.png") no-repeat right;
+    background-size: auto 130%;
+    margin: 1em 0em 1em -0.5em;
+}
+
+.painel p{
+    margin-bottom: 0.5em;
+    color: #000;
+}
+
+.painel h1{
+    margin: 0.6em 0em 0em 0em;
+}
+
