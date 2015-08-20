@@ -927,88 +927,152 @@ json.controller('corpos', function($scope){
 
     ]
 
-    $scope.castelos = [
+   $scope.castelos = [
         { 
             "nome": "Pequeno Príncipe",
-            "cidade": "",
+            "cidade": "Cajazeiras",
             "img": "castelos/07.jpg",
             "fundacao" : "08/02/2008",
             "instalacao" : "02/26/2011",
+            "diretoria": [
+                    {
+                        "cargo" : "Nobre Cavaleiro",
+                        "nome" : "Jerfesson", 
+                        "telefone1" : "(83) 9125-4971",
+                    },
+
+                    { 
+                        "cargo" : "Consultor",
+                        "nome" : "Allan Kevin", 
+                        "telefone1" : "(83) 9199-2321",
+                    },
+                ]
         },
 
         { 
             "nome": "Príncipes do Vale do Piranhas",
-            "cidade": "",
+            "cidade": "São Bento",
             "img": "castelos/17.jpg",
             "fundacao" : "11/19/2011",
             "instalacao" : "01/21/2012",
+            "diretoria": [
+                    {
+                        "cargo" : "Nobre Cavaleiro",
+                        "nome" : "Jordan Ferreira", 
+                        "telefone1" : "(83) 9639-7645",
+                    },
+
+                    { 
+                        "cargo" : "Consultor",
+                        "nome" : "Petros Renan", 
+                        "telefone1" : "(83) 9647-2698",
+                    },
+                ]
         },
 
         { 
             "nome": "Elmi Leite de Azevedo",
-            "cidade": "",
+            "cidade": "Piancó",
             "img": "castelos/cs.jpg",
             "fundacao" : "01/21/2013",
             "instalacao" : "03/24/2013",
+            "diretoria": [
+                    {
+                        "cargo" : "Nobre Cavaleiro",
+                        "nome" : "Lucas Ravy Pereira Gomes de Sousa", 
+                        "telefone1" : "(83) 9113-1089",
+                    },
+
+                    { 
+                        "cargo" : "Consultor",
+                        "nome" : "Zé Marcos", 
+                        "telefone1" : "(83) 9107-6903",
+                    },
+                ]
         },
 
         { 
             "nome": "Paladinos da Luz",
-            "cidade": "",
+            "cidade": "Guarabira",
             "img": "castelos/cs.jpg",
             "fundacao" : "05/25/2014",
             "instalacao" : "05/25/2014",
+            "diretoria": [
+                    {
+                        "cargo" : "Nobre Cavaleiro",
+                        "nome" : "Yoseph Vaz", 
+                        "telefone1" : "(83) 9964-0889",
+                    },
+
+                    { 
+                        "cargo" : "Consultor",
+                        "nome" : "Leonardo Duarte", 
+                        "telefone1" : "(83) 9 8815-6169",
+                    },
+                ]
         },
 
         { 
             "nome": "Príncipes do Arrojado",
-            "cidade": "",
+            "cidade": "Uiraúna",
             "img": "castelos/cs.jpg",
             "fundacao" : "08/31/2014",
             "instalacao" : "08/31/2014",
+            "diretoria": [
+                    {
+                        "cargo" : "Nobre Cavaleiro",
+                        "nome" : "Anderson Luiz", 
+                        "telefone1" : "(83) 9646-329",
+                    },
+
+                    { 
+                        "cargo" : "Consultor",
+                        "nome" : " Geraldo Neto", 
+                        "telefone1" : "(83) 9145-2957",
+                    },
+                ]
         },
 
         { 
             "nome": "Walt Disney",
-            "cidade": "",
+            "cidade": "João Pessoa",
             "img": "castelos/58.jpg",
             "fundacao" : "09/27/2014",
             "instalacao" : "09/27/2014",
+            "diretoria": [
+                    {
+                        "cargo" : "Nobre Cavaleiro",
+                        "nome" : "Weslley Lucas", 
+                        "telefone1" : "(83) 9967-8417",
+                    },
+
+                    { 
+                        "cargo" : "Consultor",
+                        "nome" : "Carlos Crespo", 
+                        "telefone1" : "(83) 9906-3513",
+                    },
+                ]
         },
 
         { 
             "nome": "Defensores da Rainha",
-            "cidade": "",
+            "cidade": "Itaporanga",
             "img": "castelos/cs.jpg",
             "fundacao" : "10/25/2014",
             "instalacao" : "10/25/2014",
-        },
+            "diretoria": [
+                    {
+                        "cargo" : "Nobre Cavaleiro",
+                        "nome" : "Jacinto Henrique Dos Santos", 
+                        "telefone1" : "(83) 9990-1173",
+                    },
 
-    ]
-
-    $scope.cortes = [
-        { 
-            "nome": "Corte Parahyba",
-            "cidade": "",
-            "img": "cortes/62.jpg",
-            "fundacao" : "12/01/2005",
-            "instalacao" : "12/01/2005",
-        },
-
-        { 
-            "nome": "Jacques DeMolay",
-            "cidade": "",
-            "img": "cortes/ch.jpg",
-            "fundacao" : "02/10/2014",
-            "instalacao" : "03/18/2014",
-        },
-
-        { 
-            "nome": "Deus, Pátria e Família",
-            "cidade": "",
-            "img": "cortes/ch.jpg",
-            "fundacao" : "08/10/2014",
-            "instalacao" : "08/10/2014",
+                    { 
+                        "cargo" : "Consultor",
+                        "nome" : "Fabio Galdino mangueira", 
+                        "telefone1" : "(83) 9951-6588",
+                    },
+                ]
         },
 
     ]

@@ -1,11 +1,9 @@
-var json = angular.module('demolaypb', []);
+var json = angular.module('gcapp', []);
 
 json.controller('home', function($scope,$http){
-
-        var mydata = JSON.parse(data);
-        console.log(mydata);
         $scope.$emit('LOAD') 
-        $http.get("https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fdemolaypb.org.br%2Fcategory%2Fnovidades%2F%22%20and%0A%20%20%20%20%20%20xpath%3D%27%2F%2Fdiv%2Fsection%2Fnav%2Ful%2Fli%27&format=json&diagnostics=true&callback= ")
+               
+        $http.get("https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fdemolaypb.org.br%2Fcategory%2Fnovidades%2F%22%20and%0A%20%20%20%20%20%20xpath%3D%27%2F%2Fdiv%2Fsection%2Fnav%2Ful%2Fli%27&format=json&diagnostics=true&callback=")
     .success(function(response) {
         $scope.noticias = response.query.results.li;
         $scope.$emit('UNLOAD');
@@ -13,6 +11,7 @@ json.controller('home', function($scope,$http){
 
     }).
 controller('load',function($scope){
+
         $scope.$on('LOAD',function(){$scope.online=true});
         $scope.$on('UNLOAD',function(){$scope.online=false});
         $scope.titulo = "GCApp";
