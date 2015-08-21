@@ -1077,9 +1077,35 @@ json.controller('corpos', function($scope){
 
     ]
 
+    $scope.cortes = [
+        { 
+            "nome": "Corte Parahyba",
+            "cidade": "",
+            "img": "cortes/62.jpg",
+            "fundacao" : "12/01/2005",
+            "instalacao" : "12/01/2005",
+        },
+
+        { 
+            "nome": "Jacques DeMolay",
+            "cidade": "",
+            "img": "cortes/ch.jpg",
+            "fundacao" : "02/10/2014",
+            "instalacao" : "03/18/2014",
+        },
+
+        { 
+            "nome": "Deus, Pátria e Família",
+            "cidade": "",
+            "img": "cortes/ch.jpg",
+            "fundacao" : "08/10/2014",
+            "instalacao" : "08/10/2014",
+        },
+
+    ]
+
     $scope.alumni = [
     ];
-
 
     $scope.tabela = $scope.capitulos;   
 })
