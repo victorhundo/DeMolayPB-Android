@@ -8,8 +8,8 @@ json.controller('corpos', function($scope){
             "nome": "Deus Pátria e Família",
             "cidade": "Campina Grande",
             "img": "capitulos/08.jpg",
-            "fundacao" : "08/10/1982",
-            "instalacao" : "02/26/1983",
+            "fundacao" : "10/08/1982",
+            "instalacao" : "26/02/1983",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -38,8 +38,8 @@ json.controller('corpos', function($scope){
             "nome": "João Pessoa",
             "cidade": "João Pessoa",
             "img": "capitulos/11.jpg",
-            "fundacao" : "11/12/1982",
-            "instalacao" : "05/01/1983",
+            "fundacao" : "12/11/1982",
+            "instalacao" : "01/05/1983",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -68,8 +68,8 @@ json.controller('corpos', function($scope){
             "nome": "Príncipe da Paz",
             "cidade": "Cajazeiras",
             "img": "capitulos/38.jpg",
-            "fundacao" : "10/13/1985",
-            "instalacao" : "03/02/1986",
+            "fundacao" : "13/10/1985",
+            "instalacao" : "02/03/1986",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -98,8 +98,8 @@ json.controller('corpos', function($scope){
             "nome": "União do Brejo",
             "cidade": "Guarabira",
             "img": "capitulos/39.jpg",
-            "fundacao" : "10/31/1985",
-            "instalacao" : "07/19/1987",
+            "fundacao" : "31/10/1985",
+            "instalacao" : "19/07/1987",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -125,11 +125,11 @@ json.controller('corpos', function($scope){
         },
 
         { 
-            "nome": "União São Bentense",
+            "nome": "União Sãobentense",
             "cidade": "São Bento",
             "img": "capitulos/284.jpg",
-            "fundacao" : "04/18/1996",
-            "instalacao" : "06/29/1996",
+            "fundacao" : "18/04/1996",
+            "instalacao" : "29/06/1996",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -158,8 +158,8 @@ json.controller('corpos', function($scope){
             "nome": "G.M Romildo Dias de Toledo",
             "cidade": "Catolé do Rocha",
             "img": "capitulos/385.jpg",
-            "fundacao" : "10/21/1998",
-            "instalacao" : "11/26/2005",
+            "fundacao" : "21/10/1998",
+            "instalacao" : "26/11/2005",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -188,7 +188,7 @@ json.controller('corpos', function($scope){
             "nome": "Defensores do Vale e da Liberdade",
             "cidade": "Sousa",
             "img": "capitulos/504.jpg",
-            "fundacao" : "09/03/2001",
+            "fundacao" : "03/09/2001",
             "instalacao" : "11/11/2001",
             "diretoria": [
                     {
@@ -218,8 +218,8 @@ json.controller('corpos', function($scope){
             "nome": "Templários de Piemont",
             "cidade": "Alagoa Grande",
             "img": "capitulos/517.jpg",
-            "fundacao" : "08/22/2001",
-            "instalacao" : "05/26/2002",
+            "fundacao" : "22/08/2001",
+            "instalacao" : "26/05/2002",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -248,8 +248,8 @@ json.controller('corpos', function($scope){
             "nome": "Águia de Haya",
             "cidade": "Areia",
             "img": "capitulos/624.jpg",
-            "fundacao" : "09/08/2003",
-            "instalacao" : "12/21/2003",
+            "fundacao" : "08/09/2003",
+            "instalacao" : "21/12/2003",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -278,8 +278,8 @@ json.controller('corpos', function($scope){
             "nome": "Guardiões da Fênix",
             "cidade": "Solânea",
             "img": "capitulos/625.jpg",
-            "fundacao" : "03/02/2005",
-            "instalacao" : "07/23/2005",
+            "fundacao" : "02/03/2005",
+            "instalacao" : "23/07/2005",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -308,8 +308,8 @@ json.controller('corpos', function($scope){
             "nome": "Pedro Félix de Lucena",
             "cidade": "Patos",
             "img": "capitulos/626.jpg",
-            "fundacao" : "10/21/2001",
-            "instalacao" : "11/21/2009",
+            "fundacao" : "21/10/2001",
+            "instalacao" : "21/11/2009",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -338,8 +338,8 @@ json.controller('corpos', function($scope){
             "nome": "Ivon Leite de Azevedo",
             "cidade": "Piancó",
             "img": "capitulos/645.jpg",
-            "fundacao" : "11/17/2005",
-            "instalacao" : "06/10/2006",
+            "fundacao" : "17/11/2005",
+            "instalacao" : "10/06/2006",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -368,8 +368,8 @@ json.controller('corpos', function($scope){
             "nome": "Ariosvaldo Alves de Almeida",
             "cidade": "Itaporanga",
             "img": "capitulos/646.jpg",
-            "fundacao" : "12/01/2005",
-            "instalacao" : "11/15/2007",
+            "fundacao" : "01/12/2005",
+            "instalacao" : "15/11/2007",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -398,8 +398,8 @@ json.controller('corpos', function($scope){
             "nome": "União do Vale",
             "cidade": "Itabaiana",
             "img": "capitulos/686.jpg",
-            "fundacao" : "08/15/2006",
-            "instalacao" : "06/17/2007",
+            "fundacao" : "15/08/2006",
+            "instalacao" : "17/06/2007",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -428,8 +428,8 @@ json.controller('corpos', function($scope){
             "nome": "Príncipes dos Cariris",
             "cidade": "Camalau",
             "img": "capitulos/750.jpg",
-            "fundacao" : "09/07/2009",
-            "instalacao" : "11/15/2009",
+            "fundacao" : "07/09/2009",
+            "instalacao" : "15/11/2009",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -458,8 +458,8 @@ json.controller('corpos', function($scope){
             "nome": "Filhos do Imperador",
             "cidade": "Mamanguape",
             "img": "capitulos/752.jpg",
-            "fundacao" : "10/09/2009",
-            "instalacao" : "12/19/2009",
+            "fundacao" : "09/10/2009",
+            "instalacao" : "19/12/2009",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -488,8 +488,8 @@ json.controller('corpos', function($scope){
             "nome": "Guardiões do Templo Sagrado",
             "cidade": "Pombal",
             "img": "capitulos/753.jpg",
-            "fundacao" : "11/06/2009",
-            "instalacao" : "12/20/2009",
+            "fundacao" : "06/11/2009",
+            "instalacao" : "20/12/2009",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -518,8 +518,8 @@ json.controller('corpos', function($scope){
             "nome": "Ernani Siqueira",
             "cidade": "Cabedelo",
             "img": "capitulos/762.jpg",
-            "fundacao" : "12/04/2009",
-            "instalacao" : "07/24/2010",
+            "fundacao" : "04/12/2009",
+            "instalacao" : "24/07/2010",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -548,8 +548,8 @@ json.controller('corpos', function($scope){
             "nome": "Belém do Arrojado",
             "cidade": "Uiraúna",
             "img": "capitulos/763.jpg",
-            "fundacao" : "04/07/2010",
-            "instalacao" : "10/28/2012",
+            "fundacao" : "07/04/2010",
+            "instalacao" : "28/10/2012",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -578,8 +578,8 @@ json.controller('corpos', function($scope){
             "nome": "Vanerável Luiz Gonzaga da Costa",
             "cidade": "Picuí",
             "img": "capitulos/770.jpg",
-            "fundacao" : "05/27/2010",
-            "instalacao" : "09/26/2010",
+            "fundacao" : "27/05/2010",
+            "instalacao" : "26/09/2010",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -608,8 +608,8 @@ json.controller('corpos', function($scope){
             "nome": "Guardiões da Virtude Paulistense",
             "cidade": "Paulista",
             "img": "capitulos/794.jpg",
-            "fundacao" : "07/30/2011",
-            "instalacao" : "03/10/2012",
+            "fundacao" : "30/07/2011",
+            "instalacao" : "10/03/2012",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -638,8 +638,8 @@ json.controller('corpos', function($scope){
             "nome": "Branca Dias",
             "cidade": "João Pessoa",
             "img": "capitulos/800.jpg",
-            "fundacao" : "09/05/2011",
-            "instalacao" : "06/16/2012",
+            "fundacao" : "05/09/2011",
+            "instalacao" : "16/06/2012",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -667,8 +667,8 @@ json.controller('corpos', function($scope){
         { 
             "nome": "Cavalheiros de Belém",
             "cidade": "Belém",
-            "fundacao" : "12/01/2011",
-            "instalacao" : "01/14/2012",
+            "fundacao" : "01/12/2011",
+            "instalacao" : "14/01/2012",
             "img": "capitulos/802.jpg",
             "diretoria": [
                     {
@@ -698,7 +698,7 @@ json.controller('corpos', function($scope){
             "nome": "Iraildo Liberal Bezerra",
             "cidade": "Conceição",
             "img": "capitulos/837.jpg",
-            "fundacao" : "10/24/2012",
+            "fundacao" : "24/10/2012",
             "instalacao" : "-",
             "diretoria": [
                     {
@@ -728,8 +728,8 @@ json.controller('corpos', function($scope){
             "nome": "Cavaleiros do Rio do Peixe",
             "cidade": "Rio do Peixe",
             "img": "capitulos/843.jpg",
-            "fundacao" : "04/15/2013",
-            "instalacao" : "04/15/2013",
+            "fundacao" : "15/04/2013",
+            "instalacao" : "15/04/2013",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -758,8 +758,8 @@ json.controller('corpos', function($scope){
             "nome": "Defensores do Rio Vermelho",
             "cidade": "Rio Tinto",
             "img": "capitulos/884.jpg",
-            "fundacao" : "04/07/2014",
-            "instalacao" : "04/05/2015",
+            "fundacao" : "07/04/2014",
+            "instalacao" : "05/04/2015",
             "diretoria": [
                     {
                         "cargo" : "Mestre Conselheiro",
@@ -791,8 +791,8 @@ json.controller('corpos', function($scope){
             "nome": "Cavaleiros do Ocidente",
             "cidade": "",
             "img": "priorados/05.jpg",
-            "fundacao" : "07/21/1994",
-            "instalacao" : "10/15/1994",
+            "fundacao" : "21/07/1994",
+            "instalacao" : "15/10/1994",
             "diretoria": [
                     {
                         "cargo" : "Ilustre Comendador Cavaleiro",
@@ -814,8 +814,8 @@ json.controller('corpos', function($scope){
             "nome": "Nobres Cavaleiros Condutores da Luz",
             "cidade": "",
             "img": "priorados/37.jpg",
-            "fundacao" : "03/14/1998",
-            "instalacao" : "04/26/1998",
+            "fundacao" : "14/03/1998",
+            "instalacao" : "26/04/1998",
             "diretoria": [
                     {
                         "cargo" : "Ilustre Comendador Cavaleiro",
@@ -837,8 +837,8 @@ json.controller('corpos', function($scope){
             "nome": "Nobres Cavaleiros do Sertão",
             "cidade": "",
             "img": "priorados/98.jpg",
-            "fundacao" : "11/23/2002",
-            "instalacao" : "03/30/2003",
+            "fundacao" : "23/11/2002",
+            "instalacao" : "30/03/2003",
             "diretoria": [
                     {
                         "cargo" : "Ilustre Comendador Cavaleiro",
@@ -860,8 +860,8 @@ json.controller('corpos', function($scope){
             "nome": "Deus, Patria e Família",
             "cidade": "",
             "img": "priorados/110.jpg",
-            "fundacao" : "07/04/2004",
-            "instalacao" : "07/04/2004",
+            "fundacao" : "04/07/2004",
+            "instalacao" : "04/07/2004",
             "diretoria": [
                     {
                         "cargo" : "Ilustre Comendador Cavaleiro",
@@ -883,8 +883,8 @@ json.controller('corpos', function($scope){
             "nome": "Franklin Cardoso de Sousa",
             "cidade": "",
             "img": "priorados/145.jpg",
-            "fundacao" : "09/23/2009",
-            "instalacao" : "02/20/2010",
+            "fundacao" : "23/09/2009",
+            "instalacao" : "20/02/2010",
             "diretoria": [
                     {
                         "cargo" : "Ilustre Comendador Cavaleiro",
@@ -906,8 +906,8 @@ json.controller('corpos', function($scope){
             "nome": "Francisco de Assis Florentino Filho",
             "cidade": "",
             "img": "priorados/166.jpg",
-            "fundacao" : "01/16/2012",
-            "instalacao" : "02/05/2012",
+            "fundacao" : "16/01/2012",
+            "instalacao" : "05/02/2012",
             "diretoria": [
                     {
                         "cargo" : "Ilustre Comendador Cavaleiro",
@@ -932,8 +932,8 @@ json.controller('corpos', function($scope){
             "nome": "Pequeno Príncipe",
             "cidade": "Cajazeiras",
             "img": "castelos/07.jpg",
-            "fundacao" : "08/02/2008",
-            "instalacao" : "02/26/2011",
+            "fundacao" : "02/08/2008",
+            "instalacao" : "26/02/2011",
             "diretoria": [
                     {
                         "cargo" : "Nobre Cavaleiro",
@@ -953,8 +953,8 @@ json.controller('corpos', function($scope){
             "nome": "Príncipes do Vale do Piranhas",
             "cidade": "São Bento",
             "img": "castelos/17.jpg",
-            "fundacao" : "11/19/2011",
-            "instalacao" : "01/21/2012",
+            "fundacao" : "19/11/2011",
+            "instalacao" : "21/01/2012",
             "diretoria": [
                     {
                         "cargo" : "Nobre Cavaleiro",
@@ -974,8 +974,8 @@ json.controller('corpos', function($scope){
             "nome": "Elmi Leite de Azevedo",
             "cidade": "Piancó",
             "img": "castelos/cs.jpg",
-            "fundacao" : "01/21/2013",
-            "instalacao" : "03/24/2013",
+            "fundacao" : "21/01/2013",
+            "instalacao" : "24/03/2013",
             "diretoria": [
                     {
                         "cargo" : "Nobre Cavaleiro",
@@ -995,8 +995,8 @@ json.controller('corpos', function($scope){
             "nome": "Paladinos da Luz",
             "cidade": "Guarabira",
             "img": "castelos/cs.jpg",
-            "fundacao" : "05/25/2014",
-            "instalacao" : "05/25/2014",
+            "fundacao" : "25/05/2014",
+            "instalacao" : "25/05/2014",
             "diretoria": [
                     {
                         "cargo" : "Nobre Cavaleiro",
@@ -1016,8 +1016,8 @@ json.controller('corpos', function($scope){
             "nome": "Príncipes do Arrojado",
             "cidade": "Uiraúna",
             "img": "castelos/cs.jpg",
-            "fundacao" : "08/31/2014",
-            "instalacao" : "08/31/2014",
+            "fundacao" : "31/08/2014",
+            "instalacao" : "31/08/2014",
             "diretoria": [
                     {
                         "cargo" : "Nobre Cavaleiro",
@@ -1037,8 +1037,8 @@ json.controller('corpos', function($scope){
             "nome": "Walt Disney",
             "cidade": "João Pessoa",
             "img": "castelos/58.jpg",
-            "fundacao" : "09/27/2014",
-            "instalacao" : "09/27/2014",
+            "fundacao" : "27/09/2014",
+            "instalacao" : "27/09/2014",
             "diretoria": [
                     {
                         "cargo" : "Nobre Cavaleiro",
@@ -1058,8 +1058,8 @@ json.controller('corpos', function($scope){
             "nome": "Defensores da Rainha",
             "cidade": "Itaporanga",
             "img": "castelos/cs.jpg",
-            "fundacao" : "10/25/2014",
-            "instalacao" : "10/25/2014",
+            "fundacao" : "25/10/2014",
+            "instalacao" : "25/10/2014",
             "diretoria": [
                     {
                         "cargo" : "Nobre Cavaleiro",
@@ -1082,24 +1082,24 @@ json.controller('corpos', function($scope){
             "nome": "Corte Parahyba",
             "cidade": "",
             "img": "cortes/62.jpg",
-            "fundacao" : "12/01/2005",
-            "instalacao" : "12/01/2005",
+            "fundacao" : "01/12/2005",
+            "instalacao" : "01/12/2005",
         },
 
         { 
             "nome": "Jacques DeMolay",
             "cidade": "",
             "img": "cortes/ch.jpg",
-            "fundacao" : "02/10/2014",
-            "instalacao" : "03/18/2014",
+            "fundacao" : "10/02/2014",
+            "instalacao" : "18/03/2014",
         },
 
         { 
             "nome": "Deus, Pátria e Família",
             "cidade": "",
             "img": "cortes/ch.jpg",
-            "fundacao" : "08/10/2014",
-            "instalacao" : "08/10/2014",
+            "fundacao" : "10/08/2014",
+            "instalacao" : "10/08/2014",
         },
 
     ]

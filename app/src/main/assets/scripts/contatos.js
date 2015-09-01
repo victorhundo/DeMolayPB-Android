@@ -79,7 +79,7 @@ json.controller('contatos', function($scope){
             "cargo" : "4º Região",
             "img" : "oficiais/4r.jpg",
             "telefone1": "9 9851-4839",
-            "telefone2": "9 9354-5558",
+            "telefone2": "9 9354-8558",
             "email": "jonattascav@gmail.com",
             "informacoes" : [ "Capítulos dessa região:", "Príncipe da Paz", "Belém do Arrojado", "Defensores do Vale e da Liberdade", "Cavaleiros do Rio do Peixe", ],
         },
