@@ -15,17 +15,22 @@
 		<div id="outer-wrap">
     	<div id="inner-wrap"> 
     		<!-- Se nao conseguir puxar noticias do site (offiline)-->
-    		<div ng-show="online" ng-repeat="x in [1,2,3,4,5]" class="caixa offline">
+    		<div ng-show="!online" ng-repeat="x in [1,2,3,4,5]" class="caixa offline">
     			<div class="loading">&nbsp</div>
     		</div>
 			<!-- Assim que terminar puxar noticias do site (online) -->
 			<div ng-repeat="x in noticias" class="caixa">
 				<hr />
-				<a href='{{x["article"]["figure"]["a"]["href"]}}' target="_blank">
-			 	<div class ="image" ng-style="{'background-image':'url({{x['article']['figure']['a']['img']['src']}})'}"></div>
+				<a href='{{x.link}}' target="_blank">
+			 	<div class ="image" 
+			 		ng-style="{
+			 			'background-image':'url({{x.img}})',
+			 			'background-position': 'center'
+
+			 	}"></div>
 				</a>
 				<hr />
-				<h6>{{ x["article"]["h3"]["a"]["title"] }}</h6> 
+				<h6>{{ x.titulo }}</h6> 
 				<p>{{evento.informacao}}</p>
 			</div>
 		</div>
