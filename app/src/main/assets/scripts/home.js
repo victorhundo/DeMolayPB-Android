@@ -10,12 +10,20 @@ json.controller('home', function($scope,$http){
         $scope.$emit('UNLOAD');
     })*/
 
-    $http.get("http://demolaypb-victorsousa.rhcloud.com/")
+$http.get("http://demolaypb-victorsousa.rhcloud.com/")
     .success(function(response) {
         $scope.noticias = response;
         $scope.$emit('UNLOAD');
         $scope.online = true;
     })
+
+    /*$http.get("http://demolaypb-victorsousa.rhcloud.com/")
+    .success(function(response) {
+        $scope.noticias = response;
+        $scope.$emit('UNLOAD');
+    }).function(){
+        $scope.online = true;
+    }*/
 
     }).
 controller('load',function($scope){
